@@ -1,4 +1,4 @@
-import './stylesheet/calculator.css';
+import '../stylesheet/calculator.css';
 import {
   ResultLine, FirstLine, SecondLine, ThirdLine, FourthLine, FifthLine,
 } from './buttons';
