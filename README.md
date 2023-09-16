@@ -129,7 +129,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 ## 👥 Authors <a name="authors"></a>
-👤 **Afimia Fidelis**
+👤 **Afimia Fidelis Izebiafe**
 
 - GitHub: [@githubhandle](https://github.com/Izebiafe)
 - Twitter: [@twitterhandle](https://twitter.com/Izebiafe)
