@@ -74,7 +74,7 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 1. Clone this repository
-   run
+   run:
    ```sh 
       git clone git@github.com:Izebiafe/math-magician.git
     ```
