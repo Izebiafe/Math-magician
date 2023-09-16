@@ -67,14 +67,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live View](https://math-magician-r5x5.onrender.com) 
+- None 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 1. Clone this repository
-   run
+   run:
    ```sh 
       git clone git@github.com:Izebiafe/math-magician.git
     ```
