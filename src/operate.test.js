@@ -1,5 +1,4 @@
-import operate from '../src/logic/operate';
-
+import operate from './logic/operate';
 
 describe('operate function', () => {
   it('should add two numbers', () => {
@@ -22,7 +21,7 @@ describe('operate function', () => {
     expect(result).toBe('2');
   });
 
-  it("should handle division by 0 gracefully", () => {
+  it('should handle division by 0 gracefully', () => {
     const result = operate('4', '0', '÷');
     expect(result).toBe("Can't divide by 0.");
   });
@@ -32,7 +31,7 @@ describe('operate function', () => {
     expect(result).toBe('2');
   });
 
-  it("should handle modulo by 0 gracefully", () => {
+  it('should handle modulo by 0 gracefully', () => {
     const result = operate('5', '0', '%');
     expect(result).toBe("Can't find modulo as can't divide by 0.");
   });

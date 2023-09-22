@@ -1,4 +1,4 @@
-import calculate from '../src/logic/calculate';
+import calculate from './logic/calculate';
 
 describe('calculate function', () => {
   it('should handle the "AC" button', () => {
@@ -22,7 +22,7 @@ describe('calculate function', () => {
     expect(result).toEqual({
       next: '50',
       total: null,
-        operation: null,
+      operation: null,
     });
 
     result = calculate({ next: '5', operation: '+' }, '2');
@@ -34,20 +34,20 @@ describe('calculate function', () => {
   });
 
   it('should handle the decimal point', () => {
-    let result = calculate({}, '.');
+    const result = calculate({}, '.');
     expect(result).toEqual({
       next: '0.',
       total: null,
-        operation: null,
+      operation: null,
     });
   });
 
   it('should handle the "+/-" button', () => {
-    let result = calculate({ next: '5' }, '+/-');
+    const result = calculate({ next: '5' }, '+/-');
     expect(result).toEqual({
       next: '-5',
       total: null,
-        operation: null,
+      operation: null,
     });
   });
 
