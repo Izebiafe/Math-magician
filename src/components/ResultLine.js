@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 function ResultLine({ total, operation, next }) {
   return (
-    <div className="result-line">
-      {total}
-      {operation}
-      {next}
+    <div className="result-line" role="region" aria-label="result-line">
+      <span>{total}</span>
+      <span>{operation}</span>
+      <span>{next}</span>
     </div>
   );
 }
